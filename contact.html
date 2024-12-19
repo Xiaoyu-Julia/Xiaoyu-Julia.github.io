@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/custom.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <img src="https://fakeimg.pl/50/" alt="">
+            </div>
+            <div class="col-4">
+                <h1>Portfolio</h1>
+            </div>
+            <nav class="col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Compétences
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projets
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobby.html">Intérêts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="m-3">Contactez moi</h1>
+        <form class="container-fluid m-3"  action="https://httpbin.org/post" method="post">
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="formControlInputName">Nom</label>
+                    <input type="text" class="form-control" name="formControlInputName" required >
+                </div>
+                <div class="form-group col-6">
+                    <label for="formControlInputEmail">Email address</label>
+                    <input type="email" class="form-control" name="formControlInputEmail" required >
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="formControlInputTextarea">Votre message</label>
+                    <textarea class="form-control" name="formControlInputTextarea" type="message" required ></textarea>
+                </div>
+            </div>
+            <div class="form-row mt-1">
+                <button type="submit" value="submit" class="btn btn-info">Envoyer</button>
+            </div>
+        </form>
+    </main>   
+    <footer class="container-fluid">
+        <div class="row">
+            <p>Copyright</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

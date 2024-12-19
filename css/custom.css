@@ -1,0 +1,25 @@
+body {
+  background-color: beige;
+}
+
+header, footer {
+  background-color: aqua;
+}
+
+h1 {
+  color: rgb(0, 128, 255);
+}
+
+h2 {
+  color: aqua;
+}
+
+.card-title {
+  color: rgb(0, 128, 255);
+}
+
+.card-img-top {
+  clip-path: circle(80%);
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,27 @@
+$primary-color: rgb(0, 128, 255);
+$secondary-color: rgb(137, 70, 199);
+$third-color:beige;
+$bg-color:aqua;
+
+body{
+    background-color: $third-color;
+}
+
+header, footer{
+    background-color: $bg-color;
+}
+
+h1{
+    color: $primary-color;
+}
+
+h2{
+    color: $bg-color;
+}
+
+.card-title {
+    color: $primary-color;
+    }
+.card-img-top{
+    clip-path: circle(80%);
+}
